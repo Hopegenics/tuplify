@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hopegenics.Tuplify.WebApi", "Hopegenics.Tuplify.WebApi\src\Hopegenics.Tuplify.WebApi\Hopegenics.Tuplify.WebApi.csproj", "{E5C60738-8E98-4711-B3F2-594B7EA7A72B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E5C60738-8E98-4711-B3F2-594B7EA7A72B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5C60738-8E98-4711-B3F2-594B7EA7A72B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5C60738-8E98-4711-B3F2-594B7EA7A72B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5C60738-8E98-4711-B3F2-594B7EA7A72B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A5E695E5-24CC-48D4-93DE-4086599F5FF3}
+	EndGlobalSection
+EndGlobal

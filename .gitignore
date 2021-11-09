@@ -11,3 +11,9 @@
 /src/api/CustomerAPI/HG.Tuplify.Customer.WebApi/obj
 /src/api/CustomerAPI/HG.Tuplify.Customer.WebApi.Tests/bin/Debug/net5.0
 /src/api/CustomerAPI/HG.Tuplify.Customer.WebApi.Tests/obj
+/src/api/CustomerAPI/HG.Tuplify.Customer.Domain/bin/Debug/net5.0
+/src/api/CustomerAPI/HG.Tuplify.Customer.Domain/obj
+/src/api/CustomerAPI/HG.Tuplify.Customer.Infrastructure/bin/Debug/net5.0
+/src/api/CustomerAPI/HG.Tuplify.Customer.Infrastructure/obj
+/src/api/CustomerAPI/HG.Tuplify.Customer.Persistence/bin/Debug/net5.0
+/src/api/CustomerAPI/HG.Tuplify.Customer.Persistence/obj

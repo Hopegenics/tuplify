@@ -14,7 +14,7 @@ namespace HG.Tuplify.Customer.WebApi.Triggers
 
             context.Logger.LogLine($"User Attribute Count?: {input.Request?.UserAttributes?.Count ?? 0}");
 
-            foreach (var (key, value) in input.Request.UserAttributes)
+            foreach (var (key, value) in input.Request?.UserAttributes)
             {
                 context.Logger.LogLine($"User attribute Key: {key}, Value: {value}");
             }

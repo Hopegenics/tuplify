@@ -46,14 +46,30 @@
         "DockerContext": ".",
         "DockerTag": ""
       }
-    }
-  },
-  "Outputs": {
-    "ApiURL": {
-      "Description": "API endpoint URL for Prod environment",
-      "Value": {
-        "Fn::Sub": "https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod/"
+    },
+    "SignUpConfirmationTrigger": {
+      "Type": "AWS::Serverless::Function",
+      "Properties": {        
+        "PackageType": "Image",
+        "ImageConfig": {
+          "EntryPoint": [
+            "/lambda-entrypoint.sh"
+          ],
+          "Command": [
+            "HG.Tuplify.Customer.WebApi::HG.Tuplify.Customer.WebApi.Triggers.SignUpPostConfirmationTrigger::SignUpPostConfirmationTriggerHandler"
+          ]
+        },
+        "ImageUri": "",
+        "MemorySize": 256,
+        "Timeout": 30,
+        "Role": null,
+        "Policies": [
+          "AWSLambda_FullAccess"
+        ],
+        "Events": {}
       }
     }
-  }
+  
+  },
+  "Outputs": {}
 }

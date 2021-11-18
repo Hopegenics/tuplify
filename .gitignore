@@ -1,0 +1,26 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/VSWorkspaceState.json
+/.vs/tuplify/v16
+/.vs/slnx.sqlite
+/src/api/.vs/Hopegenics.Tuplify
+/src/api/CustomerAPI/.vs/HG.Tuplify.Customer
+/src/api/CustomerAPI/HG.Tuplify.Customer.WebApi/bin/Debug/net5.0
+/src/api/CustomerAPI/HG.Tuplify.Customer.WebApi/obj
+/src/api/CustomerAPI/HG.Tuplify.Customer.WebApi.Tests/bin/Debug/net5.0
+/src/api/CustomerAPI/HG.Tuplify.Customer.WebApi.Tests/obj
+/src/api/CustomerAPI/HG.Tuplify.Customer.Domain/bin/Debug/net5.0
+/src/api/CustomerAPI/HG.Tuplify.Customer.Domain/obj
+/src/api/CustomerAPI/HG.Tuplify.Customer.Infrastructure/bin/Debug/net5.0
+/src/api/CustomerAPI/HG.Tuplify.Customer.Infrastructure/obj
+/src/api/CustomerAPI/HG.Tuplify.Customer.Persistence/bin/Debug/net5.0
+/src/api/CustomerAPI/HG.Tuplify.Customer.Persistence/obj
+/src/api/CustomerAPI/HG.Tuplify.Customer.Domain/bin/Release/net5.0
+/src/api/CustomerAPI/HG.Tuplify.Customer.Infrastructure/bin/Release/net5.0
+/src/api/CustomerAPI/HG.Tuplify.Customer.Persistence/bin/Release/net5.0
+/src/api/CustomerAPI/HG.Tuplify.Customer.WebApi/bin/Release
+/.vs/tuplify
+/src/api/CognitoTrigger/.vs/HG.Tuplify.CognitoTrigger
+/src/api/CognitoTrigger/HG.Tuplify.CognitoTrigger.Service/obj

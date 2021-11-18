@@ -21,3 +21,6 @@
 /src/api/CustomerAPI/HG.Tuplify.Customer.Infrastructure/bin/Release/net5.0
 /src/api/CustomerAPI/HG.Tuplify.Customer.Persistence/bin/Release/net5.0
 /src/api/CustomerAPI/HG.Tuplify.Customer.WebApi/bin/Release
+/.vs/tuplify
+/src/api/CognitoTrigger/.vs/HG.Tuplify.CognitoTrigger
+/src/api/CognitoTrigger/HG.Tuplify.CognitoTrigger.Service/obj

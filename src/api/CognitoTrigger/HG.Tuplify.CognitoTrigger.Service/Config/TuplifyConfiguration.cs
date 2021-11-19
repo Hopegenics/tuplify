@@ -18,6 +18,7 @@ namespace HG.Tuplify.CognitoTrigger.Service.Config
             _configuration = new ConfigurationBuilder()
                 .SetBasePath(Path.Combine(Directory.GetCurrentDirectory()))
                 .AddJsonFile("appsettings.json", optional: true)
+                .AddJsonFile("appsettings.secrets.json", optional: true)
                 .Build();
         }
 

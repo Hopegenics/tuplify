@@ -6,11 +6,16 @@
     <!-- This property makes the build directory similar to a publish directory and helps the AWS .NET Lambda Mock Test Tool find project dependencies. -->
     <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
     <UserSecretsId>1c632e62-843c-478b-a43f-098fb2f015a2</UserSecretsId>
+    <OutputType>Library</OutputType>
   </PropertyGroup>
   <ItemGroup>
     <None Remove="appsettings.json" />
+    <None Remove="appsettings.secrets.json" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="appsettings.secrets.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="appsettings.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

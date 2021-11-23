@@ -4,6 +4,7 @@ using HG.Tuplify.CognitoTrigger.Service.Models;
 using HG.Tuplify.CognitoTrigger.Persistence.Config;
 using HG.Tuplify.CognitoTrigger.Persistence.Models;
 using HG.Tuplify.CognitoTrigger.Persistence;
+using System.Linq;
 
 // Assembly attribute to enable the Lambda function's JSON input to be converted into a .NET class.
 [assembly: LambdaSerializer(typeof(Amazon.Lambda.Serialization.SystemTextJson.DefaultLambdaJsonSerializer))]
@@ -79,9 +80,20 @@ namespace HG.Tuplify.CognitoTrigger.Service
 
             dbContext.Database.EnsureCreated();
 
-            dbContext.CustomerInfos.Add(customerInfo);
+            var isCustomerExist = dbContext.CustomerInfos.Any(ci => ci.CustomerEmail.Equals(customer.Email));
 
-            dbContext.SaveChanges();
+            if(!isCustomerExist)
+            {
+                dbContext.CustomerInfos.Add(customerInfo);
+
+                dbContext.SaveChanges();
+
+                context.Logger.Log($"Customer Saved with: {customerInfo}");
+            }
+            else
+            {
+                context.Logger.Log($"Customer already exists, Save is not done. Existing record :{customerInfo}");
+            }
 
             context.Logger.Log($"{nameof(SaveCustomerInfo)} executed");
         }

@@ -1,15 +1,15 @@
 using Amazon.Lambda.Core;
-using HG.Tuplify.CognitoTrigger.Service.Config;
 using HG.Tuplify.CognitoTrigger.Service.DTO;
 using HG.Tuplify.CognitoTrigger.Service.Models;
-using HG.Tuplify.CognitoTrigger.Service.Persistence;
-using HG.Tuplify.CognitoTrigger.Service.Persistence.Models;
+using HG.Tuplify.CognitoTrigger.Persistence.Config;
+using HG.Tuplify.CognitoTrigger.Persistence.Models;
+using HG.Tuplify.CognitoTrigger.Persistence;
 
 // Assembly attribute to enable the Lambda function's JSON input to be converted into a .NET class.
 [assembly: LambdaSerializer(typeof(Amazon.Lambda.Serialization.SystemTextJson.DefaultLambdaJsonSerializer))]
 
 namespace HG.Tuplify.CognitoTrigger.Service
-{    
+{
     public class CustomerSignUpPostConfirmationFunction
     {        
         /// <summary>
@@ -22,8 +22,6 @@ namespace HG.Tuplify.CognitoTrigger.Service
         {
             //TODO Fuction donus degeri confirmation'i patlatiyor
             
-            //TODO MySql'deki kayitlari goremiyoruz.
-
             context.Logger.Log($"{nameof(FunctionHandler)} executing.");
 
             TuplifyConfiguration.ConfigureSettings();

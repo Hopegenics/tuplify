@@ -1,10 +1,10 @@
-﻿using HG.Tuplify.CognitoTrigger.Service.Config;
-using HG.Tuplify.CognitoTrigger.Service.Persistence.Models;
+﻿using HG.Tuplify.CognitoTrigger.Persistence.Config;
+using HG.Tuplify.CognitoTrigger.Persistence.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace HG.Tuplify.CognitoTrigger.Service.Persistence
+namespace HG.Tuplify.CognitoTrigger.Persistence
 {
-    internal class TuplifyDbContext : DbContext
+    public class TuplifyDbContext : DbContext
     {
         public DbSet<CustomerInfo> CustomerInfos { get; set; }
 

@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HG.Tuplify.CognitoTrigger.Service", "HG.Tuplify.CognitoTrigger.Service\HG.Tuplify.CognitoTrigger.Service.csproj", "{417DDC10-4CB0-4EAF-A1D6-B4704ADDE7D6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HG.Tuplify.CognitoTrigger.Persistence", "HG.Tuplify.CognitoTrigger.Persistence\HG.Tuplify.CognitoTrigger.Persistence.csproj", "{7C355749-C88D-48AA-BF0C-0E8038DE5A93}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{417DDC10-4CB0-4EAF-A1D6-B4704ADDE7D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{417DDC10-4CB0-4EAF-A1D6-B4704ADDE7D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{417DDC10-4CB0-4EAF-A1D6-B4704ADDE7D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C355749-C88D-48AA-BF0C-0E8038DE5A93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C355749-C88D-48AA-BF0C-0E8038DE5A93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C355749-C88D-48AA-BF0C-0E8038DE5A93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C355749-C88D-48AA-BF0C-0E8038DE5A93}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -2,13 +2,13 @@
 using System;
 using System.IO;
 
-namespace HG.Tuplify.CognitoTrigger.Service.Config
+namespace HG.Tuplify.CognitoTrigger.Persistence.Config
 {
-    internal static class TuplifyConfiguration
+    public static class TuplifyConfiguration
     {
         private static IConfiguration _configuration;
 
-        internal static void ConfigureSettings()
+        public static void ConfigureSettings()
         {
             if (_configuration != null)
             {
@@ -24,7 +24,7 @@ namespace HG.Tuplify.CognitoTrigger.Service.Config
 
         public static T Get<T>(string key) where T : class
         {
-            if(_configuration == null)
+            if (_configuration == null)
             {
                 throw new ArgumentNullException(key);
             }

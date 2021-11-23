@@ -27,3 +27,5 @@
 /src/api/CognitoTrigger/HG.Tuplify.CognitoTrigger.Service/appsettings.secrets.json
 /src/api/CognitoTrigger/HG.Tuplify.CognitoTrigger.Service/bin/Release
 /src/api/CognitoTrigger/HG.Tuplify.CognitoTrigger.Service/bin/Debug/net5.0
+/src/api/CognitoTrigger/HG.Tuplify.CognitoTrigger.Persistence/obj
+/src/api/CognitoTrigger/HG.Tuplify.CognitoTrigger.Persistence/bin/Debug/net5.0

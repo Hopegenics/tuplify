@@ -24,3 +24,13 @@
 /.vs/tuplify
 /src/api/CognitoTrigger/.vs/HG.Tuplify.CognitoTrigger
 /src/api/CognitoTrigger/HG.Tuplify.CognitoTrigger.Service/obj
+/src/api/CognitoTrigger/HG.Tuplify.CognitoTrigger.Service/appsettings.secrets.json
+/src/api/CognitoTrigger/HG.Tuplify.CognitoTrigger.Service/bin/Release
+/src/api/CognitoTrigger/HG.Tuplify.CognitoTrigger.Service/bin/Debug/net5.0
+/src/api/CognitoTrigger/HG.Tuplify.CognitoTrigger.Persistence/obj
+/src/api/CognitoTrigger/HG.Tuplify.CognitoTrigger.Persistence/bin/Debug/net5.0
+/src/api/CognitoTrigger/HG.Tuplify.CognitoTrigger.MerchantFunction/bin/Debug/net5.0
+/src/api/CognitoTrigger/HG.Tuplify.CognitoTrigger.MerchantFunction/obj
+/src/api/CognitoTrigger/HG.Tuplify.CognitoTrigger.MerchantFunction/appsettings.secrets.json
+/src/api/WebAPI/obj
+/src/api/CognitoTrigger/.vs/HopeGenics.Tuplify

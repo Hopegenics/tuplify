@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace HG.Tuplify.CognitoTrigger.Service.Persistence.Models
+namespace HG.Tuplify.CognitoTrigger.Persistence.Models
 {
     public record CustomerInfo
     {

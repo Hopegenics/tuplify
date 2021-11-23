@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HG.Tuplify.CognitoTrigger.MerchantFunction", "CognitoTrigger\HG.Tuplify.CognitoTrigger.MerchantFunction\HG.Tuplify.CognitoTrigger.MerchantFunction.csproj", "{9473FE0F-A894-4A1C-B2C1-B4B622DBEDE3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HG.Tuplify.CognitoTrigger.Persistence", "CognitoTrigger\HG.Tuplify.CognitoTrigger.Persistence\HG.Tuplify.CognitoTrigger.Persistence.csproj", "{613C977B-482B-4B53-A415-906A67A1F479}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HG.Tuplify.CognitoTrigger.Service", "CognitoTrigger\HG.Tuplify.CognitoTrigger.Service\HG.Tuplify.CognitoTrigger.Service.csproj", "{BE3D1302-4163-4D54-960F-1A671273BBAB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HG.Tuplify.WebAPI", "WebAPI\HG.Tuplify.WebAPI.csproj", "{3AC12F60-9F0E-43A2-ACDC-FF11096E950B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CognitoTriggers", "CognitoTriggers", "{237E86C8-0B1B-422D-B34E-C884F09BF970}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebAPI", "WebAPI", "{01A44CC8-F426-47FC-85D6-0A547DD0B5BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9473FE0F-A894-4A1C-B2C1-B4B622DBEDE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9473FE0F-A894-4A1C-B2C1-B4B622DBEDE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9473FE0F-A894-4A1C-B2C1-B4B622DBEDE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9473FE0F-A894-4A1C-B2C1-B4B622DBEDE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{613C977B-482B-4B53-A415-906A67A1F479}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{613C977B-482B-4B53-A415-906A67A1F479}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{613C977B-482B-4B53-A415-906A67A1F479}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{613C977B-482B-4B53-A415-906A67A1F479}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE3D1302-4163-4D54-960F-1A671273BBAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE3D1302-4163-4D54-960F-1A671273BBAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE3D1302-4163-4D54-960F-1A671273BBAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE3D1302-4163-4D54-960F-1A671273BBAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AC12F60-9F0E-43A2-ACDC-FF11096E950B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AC12F60-9F0E-43A2-ACDC-FF11096E950B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AC12F60-9F0E-43A2-ACDC-FF11096E950B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AC12F60-9F0E-43A2-ACDC-FF11096E950B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9473FE0F-A894-4A1C-B2C1-B4B622DBEDE3} = {237E86C8-0B1B-422D-B34E-C884F09BF970}
+		{613C977B-482B-4B53-A415-906A67A1F479} = {237E86C8-0B1B-422D-B34E-C884F09BF970}
+		{BE3D1302-4163-4D54-960F-1A671273BBAB} = {237E86C8-0B1B-422D-B34E-C884F09BF970}
+		{3AC12F60-9F0E-43A2-ACDC-FF11096E950B} = {01A44CC8-F426-47FC-85D6-0A547DD0B5BA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {36C92599-817F-4665-B32B-CE2A1B4420D6}
+	EndGlobalSection
+EndGlobal
